@@ -1,0 +1,52 @@
+body {
+  font-family: "Montserrat", serif;
+}
+.header {
+  text-align: center;
+  font-size: 25px;
+  color: #191919;
+  background-color: gold;
+}
+.article {
+  align-items: flex-start;
+  background-color: rgba(0, 0, 255, 0.877);
+  color: white;
+}
+.text-field {
+  font-family: "Montserrat", serif;
+  font-size: 15px;
+  background-color: white;
+  color: #434343;
+  width: 215px;
+}
+::placeholder {
+  color: rgb(177, 177, 165);
+}
+.container_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calcular {
+  background-color: #191919;
+  color: white;
+  font-weight: bold;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 8px;
+  margin: 6px 5px;
+}
+
+.calcular:hover,
+.calcular:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #191919;
+}
+.date-picker {
+  position: relative;
+  display: inline-block;
+  font-family: "Montserrat", serif;
+  font-size: 15px;
+  background-color: white;
+  color: #434343;
+}
